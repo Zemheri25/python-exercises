@@ -21,7 +21,7 @@ def remove_virus(folders):
         list1.append(i)
     for j in list1:
       if "virus" in j:
-        if "antivirus" not in j or "notvirus" not in j:         #THIS SOLUTİON WİTH DEFİNED FUNCTİON
+        if "antivirus" not in j and "notvirus" not in j:         #THIS SOLUTİON WİTH DEFİNED FUNCTİON
            list1.remove(j)
         else:
             None
