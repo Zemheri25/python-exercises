@@ -6,4 +6,4 @@ for i in range(1, 100+1):
     elif i % 5 == 0:
         print("Buzz")
     else:
-        print("Rest of the numbers unchanged")
+        print(i)
