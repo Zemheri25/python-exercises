@@ -1,0 +1,14 @@
+def invert(text):
+    string1 = ""
+    text = text[::-1]
+    for i in text:
+        if i.isalpha():
+            if i.isupper():
+                string1 += i.lower()
+            elif i.islower():
+                string1 += i.upper()
+        else:
+            string1 += i
+    return string1
+
+print(invert("dLROW YM sI HsEt"))
