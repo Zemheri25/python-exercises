@@ -4,6 +4,6 @@ def wrap_around(string1, number1):
     if number1 > 0:
         return string1[number1-1:] + string1[:number1]
     else:
-        return string1[-1:number1:-1][::-1] + string1[:number1]
+        return string1[-1:number1-1:-1][::-1] + string1[:number1]
 
 print(wrap_around("string1", "number1"))
