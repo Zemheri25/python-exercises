@@ -43,7 +43,7 @@ else:
             print("fighter2 wins")
         else:
             fighter1 += punch
-            print("fighter2 punch")
+            print("fighter1 punch")
             a = choice(numbers)
             
             if  a <= fighter1:
@@ -55,7 +55,5 @@ else:
 
 
     
-
-
 
 
