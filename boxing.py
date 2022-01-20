@@ -11,7 +11,7 @@ punch = 10
 
 list1 = ["fighter1", "fighter2"]
 c = choice(list1)
-print(c)
+
 
 fightend = False
 if c == "fighter1":
