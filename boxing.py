@@ -9,12 +9,12 @@ fighter1 = 0
 fighter2 = 0
 punch = 10
 
-list1 = [fighter1, fighter2]
-b = choice(list1)
-
+list1 = ["fighter1", "fighter2"]
+c = choice(list1)
+print(c)
 
 fightend = False
-if b == fighter1:
+if c == "fighter1":
     while fightend != True:
         fighter1 += punch
         print("fighter1 punch")
